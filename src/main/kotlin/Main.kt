@@ -17,7 +17,7 @@ fun main() {
             println("❌ ${task.title}")
         }
     }
-    val filteredList:List<Task> = taskList.filter { !it.isDone }
+    val filteredList = taskList.filter { !it.isDone }
     println("To do: ")
     for (task in filteredList){
         print("- ${task.title}")
